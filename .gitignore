@@ -1,0 +1,17 @@
+**/.terraform
+**/*.tfstate
+**/*.tfplan
+**/*.tfvars
+.DS_Store
+**/terraform.tfstate.d
+**/terraform.tfstate.backup
+**/.terraform.tfstate.lock.info
+**/.terraform.lock.hcl
+**/~*.*
+**/*.log
+**/backend.azurerm.tf
+public
+aztfmod
+*output.json
+probeer
+**/*.old
