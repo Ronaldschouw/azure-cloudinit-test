@@ -81,6 +81,7 @@ resource "azurerm_linux_virtual_machine" "cloudinit" {
   os_disk {
     caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"
+    disk_size_gb         = "48"
   }
 
   source_image_reference {
